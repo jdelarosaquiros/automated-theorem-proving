@@ -17,7 +17,7 @@ The structure of each dependency block is:
 *	T 〈tokenization of the conjecture<br>
 
 Each example block starts with + or -. The + means that the example is useful in the final proof, whereas the – means it isn’t. The structure of an example is the following:
-* '-' / '+'〈text representation of the intermediate step〉
+* - / +〈text representation of the intermediate step〉
 *	T 〈tokenization of the intermediate step〉
 
 To download the dataset, click [here](http://cl-informatik.uibk.ac.at/cek/holstep/)

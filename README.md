@@ -10,10 +10,12 @@ The structure of a conjecture block is as follows:
 *	N 〈name of conjecture〉
 *	C 〈text representation of the conjecture〉
 *	T 〈tokenization of the conjecture〉<br>
+
 The structure of each dependency block is:
 *	D 〈name of dependency (axiom)〉
 *	A 〈text representation of the dependency (axiom)〉
 *	T 〈tokenization of the conjecture<br>
+
 Each example block starts with + or -. The + means that the example is useful in the final proof, whereas the – means it isn’t. The structure of an example is the following:
 *	- / +〈text representation of the intermediate step〉
 *	T 〈tokenization of the intermediate step〉

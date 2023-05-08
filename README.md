@@ -30,7 +30,9 @@ The implementation of the model is saved as a notebook in google colab. There ar
 * [Conjecture as input](https://colab.research.google.com/drive/1-lr5yp6K8dkU0OOYPXABfLSDk3XgL8on?usp=sharing). 
 * [Dendencies as input](https://colab.research.google.com/drive/1avlZircqzc9a4KBIGWScQep5qF5i1c1W?usp=sharing). 
 
-To train and evalue the model, simply run all the cells.
+All notebooks generally contain the same sections. The code in the Configuration section imports the required libraries and mounts Google Drive. The Holstep and Data sections process the data and display info about it. The Tree-Structed Model contain the code for creating and training the model, and the Results section display the results of the training and testing. 
+
+To train and evalue the model, simply run all the cells. 
 
 Note: Before running the cells, you should place the folder of the holstep dataset in Google Drive the following path: /content/drive/My Drive/Colab Notebooks/holstep. You can use a different path by changing the value of the basePath variable.
 

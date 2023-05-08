@@ -7,16 +7,16 @@ A difficult part of Automated Theorem Proving (ATP) is searching all the interme
 This model was trained and tested using the HOLStep dataset. It has 2013046 training examples and 196030 testing examples originating from 11,400 proofs. Also, half of the examples are statements that were useful in proving conjectures. The other examples were derived statements that were not necessary in final proof. For each proof, there is the conjecture being proven, its dependencies (axioms), and some examples. 
 
 The structure of a conjecture block is as follows:
-•	N 〈name of conjecture〉
-•	C 〈text representation of the conjecture〉
-•	T 〈tokenization of the conjecture〉
+*	N 〈name of conjecture〉
+*	C 〈text representation of the conjecture〉
+*	T 〈tokenization of the conjecture〉
 The structure of each dependency block is:
-•	D 〈name of dependency (axiom)〉
-•	A 〈text representation of the dependency (axiom)〉
-•	T 〈tokenization of the conjecture
+*	D 〈name of dependency (axiom)〉
+*	A 〈text representation of the dependency (axiom)〉
+*	T 〈tokenization of the conjecture
 Each example block starts with + or -. The + means that the example is useful in the final proof, whereas the – means it isn’t. The structure of an example is the following:
-•	+ / −〈text representation of the intermediate step〉
-•	T 〈tokenization of the intermediate step〉
+*	+ / −〈text representation of the intermediate step〉
+*	T 〈tokenization of the intermediate step〉
 
 To download the dataset, click [here](http://cl-informatik.uibk.ac.at/cek/holstep/)
 

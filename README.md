@@ -15,7 +15,7 @@ The structure of each dependency block is:
 *	A 〈text representation of the dependency (axiom)〉
 *	T 〈tokenization of the conjecture
 Each example block starts with + or -. The + means that the example is useful in the final proof, whereas the – means it isn’t. The structure of an example is the following:
-*	+ / −〈text representation of the intermediate step〉
+*	- / +〈text representation of the intermediate step〉
 *	T 〈tokenization of the intermediate step〉
 
 To download the dataset, click [here](http://cl-informatik.uibk.ac.at/cek/holstep/)
@@ -24,9 +24,9 @@ To download the dataset, click [here](http://cl-informatik.uibk.ac.at/cek/holste
 
 The implementation of the model is saved as a notebook in google colab. There are three versions that use different inputs for the third input layer, click on the following to go to their colab:
 
-• [Statement as input](https://colab.research.google.com/drive/1tmJ51kxW_C96Kkne5yEEDGVrgfryiBe0?usp=sharing). 
-• [Conjecture as input](https://colab.research.google.com/drive/1-lr5yp6K8dkU0OOYPXABfLSDk3XgL8on?usp=sharing). 
-• [Dendencies as input](https://colab.research.google.com/drive/1avlZircqzc9a4KBIGWScQep5qF5i1c1W?usp=sharing). 
+* [Statement as input](https://colab.research.google.com/drive/1tmJ51kxW_C96Kkne5yEEDGVrgfryiBe0?usp=sharing). 
+* [Conjecture as input](https://colab.research.google.com/drive/1-lr5yp6K8dkU0OOYPXABfLSDk3XgL8on?usp=sharing). 
+* [Dendencies as input](https://colab.research.google.com/drive/1avlZircqzc9a4KBIGWScQep5qF5i1c1W?usp=sharing). 
 
 To train and evalue the model, simply run all the cells.
 
